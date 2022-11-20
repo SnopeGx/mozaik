@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mozaik:blocks/ejderkalintisi",
+    "up": "mozaik:blocks/ejderkalintisi",
+    "north": "mozaik:blocks/ejderkalintisi",
+    "east": "mozaik:blocks/ejderkalintisi",
+    "south": "mozaik:blocks/ejderkalintisi",
+    "west": "mozaik:blocks/ejderkalintisi",
+    "particle": "mozaik:blocks/ejderkalintisi"
+  },
+  "render_type": "solid"
+}

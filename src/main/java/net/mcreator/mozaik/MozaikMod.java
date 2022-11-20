@@ -29,6 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.mozaik.init.MozaikModTabs;
+import net.mcreator.mozaik.init.MozaikModItems;
+import net.mcreator.mozaik.init.MozaikModFeatures;
+import net.mcreator.mozaik.init.MozaikModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -43,8 +48,13 @@ public class MozaikMod {
 
 	public MozaikMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		MozaikModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MozaikModBlocks.REGISTRY.register(bus);
+		MozaikModItems.REGISTRY.register(bus);
+
+		MozaikModFeatures.REGISTRY.register(bus);
 
 	}
 
