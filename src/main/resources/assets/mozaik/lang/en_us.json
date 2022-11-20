@@ -1,4 +1,8 @@
 {
+  "item.mozaik.shelter": "Shelter",
+  "advancements.ejderejderdir.title": "Antik Dönemden Kalma Ziyafet",
   "block.mozaik.ejderkalintisi": "Ejderha Kalıntısı Taşı",
-  "itemGroup.tabmozaik": "Mozaik"
+  "itemGroup.tabmozaik": "Mozaik",
+  "item.mozaik.ejderkalintisi_2": "Ejder Eti",
+  "advancements.ejderejderdir.descr": "Bir ejder eti elde et"
 }

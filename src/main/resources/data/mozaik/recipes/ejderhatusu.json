@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 350,
+  "ingredient": {
+    "item": "mozaik:ejderkalintisi"
+  },
+  "result": "mozaik:ejderkalintisi_2"
+}
